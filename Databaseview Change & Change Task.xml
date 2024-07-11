@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-07-11 14:06:07">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Databaseview Change &amp; Change Task</description>
+<inserted/>
+<name>Databaseview Change &amp; Change Task</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>f66d0b8e475306d099b2a16f316d43e2</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-07-11 14:06:06</sys_created_on>
+<sys_id>c37f0742479306d099b2a16f316d432b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-07-11 14:06:06</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_mudanca__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Mudança" language="en" table="u_mudanca"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Mudança</label><language>en</language><name>u_mudanca</name><plural>Mudanças</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-11 13:57:36</sys_created_on><sys_id>668dcb8e475306d099b2a16f316d4348</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mudança</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_mudanca__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-11 13:57:36</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1808665181</payload_hash>
+<remote_update_set display_value="Databaseview Change &amp; Change Task">c37f0742479306d099b2a16f316d432b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-07-11 14:06:06</sys_created_on>
+<sys_id>477f0742479306d099b2a16f316d432c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>190a215cf5b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-07-11 14:06:06</sys_updated_on>
+<table>u_mudanca</table>
+<target_name>Mudança</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>aa8dcb8efb5306d00baeb5181745a14b</update_guid>
+<update_guid_history>aa8dcb8efb5306d00baeb5181745a14b:-1808665181</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_view_table_a3edc3ce475306d099b2a16f316d43a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>false</left_join><order>100</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-11 14:00:06</sys_created_on><sys_id>a3edc3ce475306d099b2a16f316d43a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>change_request</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_view_table_a3edc3ce475306d099b2a16f316d43a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-11 14:00:06</sys_updated_on><table>change_request</table><variable_prefix>cr</variable_prefix><view display_value="u_mudanca">981d438e475306d099b2a16f316d4356</view><where_clause/></sys_db_view_table></record_update>]]></payload>
+<payload_hash>1996690929</payload_hash>
+<remote_update_set display_value="Databaseview Change &amp; Change Task">c37f0742479306d099b2a16f316d432b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-07-11 14:06:06</sys_created_on>
+<sys_id>837f0742479306d099b2a16f316d432c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>190a21817630000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-07-11 14:06:06</sys_updated_on>
+<table>change_request</table>
+<target_name>change_request</target_name>
+<type>View Table</type>
+<update_domain>global</update_domain>
+<update_guid>471ec7ce2a5306d0d418e303b0abff72</update_guid>
+<update_guid_history>471ec7ce2a5306d0d418e303b0abff72:1996690929</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_view_981d438e475306d099b2a16f316d4356</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view"><sys_db_view action="INSERT_OR_UPDATE"><description>Mudança &amp; Tarefa de Mudança</description><label>Mudança</label><name>u_mudanca</name><plural>Mudanças</plural><sys_class_name>sys_db_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-11 13:57:36</sys_created_on><sys_id>981d438e475306d099b2a16f316d4356</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_mudanca</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_view_981d438e475306d099b2a16f316d4356</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-11 13:57:36</sys_updated_on></sys_db_view></record_update>]]></payload>
+<payload_hash>-1282768883</payload_hash>
+<remote_update_set display_value="Databaseview Change &amp; Change Task">c37f0742479306d099b2a16f316d432b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-07-11 14:06:06</sys_created_on>
+<sys_id>c77f0742479306d099b2a16f316d432b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>190a215cf7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-07-11 14:06:06</sys_updated_on>
+<table>u_mudanca</table>
+<target_name>u_mudanca</target_name>
+<type>Database View</type>
+<update_domain>global</update_domain>
+<update_guid>2a8dcb8efc5306d0df71499288a8324d</update_guid>
+<update_guid_history>2a8dcb8efc5306d0df71499288a8324d:-1282768883</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_view_table_206ec70e471306d099b2a16f316d43c2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>false</left_join><order>200</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-11 14:03:55</sys_created_on><sys_id>206ec70e471306d099b2a16f316d43c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>change_task</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_view_table_206ec70e471306d099b2a16f316d43c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-11 14:03:55</sys_updated_on><table>change_task</table><variable_prefix>ct</variable_prefix><view display_value="u_mudanca">981d438e475306d099b2a16f316d4356</view><where_clause>cr_sys_id = ct_change_request</where_clause></sys_db_view_table></record_update>]]></payload>
+<payload_hash>-1147100713</payload_hash>
+<remote_update_set display_value="Databaseview Change &amp; Change Task">c37f0742479306d099b2a16f316d432b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-07-11 14:06:06</sys_created_on>
+<sys_id>cf7f0742479306d099b2a16f316d432b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>190a21b96400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-07-11 14:06:06</sys_updated_on>
+<table>change_task</table>
+<target_name>change_task</target_name>
+<type>View Table</type>
+<update_domain>global</update_domain>
+<update_guid>47fe0f8e855306d0870031dae5d03e18</update_guid>
+<update_guid_history>47fe0f8e855306d0870031dae5d03e18:-1147100713</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
